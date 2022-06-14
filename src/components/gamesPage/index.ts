@@ -14,13 +14,13 @@ export class GamesPage extends Page {
       caption: 'Аудиовызов',
       text: 'Развиваем словарный запас! Выберите правильный перевод услышанного слова.',
       href: PageIds.gameChallengePage,
-      img: '../../assets/images/2.png',
+      img: './assets/images/2.png',
     },
     {
       caption: 'Спринт',
       text: 'Тренируем навык быстрого перевода с английского языка на русский! Выберите соответсвует ли перевод предложенному слову.',
       href: PageIds.gameSprintPage,
-      img: '../../assets/images/2.png',
+      img: './assets/images/2.png',
     },
   ];
 

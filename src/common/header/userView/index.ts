@@ -13,7 +13,7 @@ export class UserView extends Component {
   constructor() {
     super('div', ['userView']);
     this.container.innerHTML =
-      '<div class="userView__wrap"><img src="../../../assets/svg/user-icon.svg" class="userView__img"></div><p class="userView__greeting">User</p>';
+      '<div class="userView__wrap"><img src="./assets/svg/user-icon.svg" class="userView__img"></div><p class="userView__greeting">User</p>';
     this.buttonExit = new Button('button', 'Выход', ['userView__btn', 'userView__btn--exit']);
     this.buttonExit.onClick(this.signOut);
     this.buttonInput = new Button('a', 'Вход', ['userView__btn', 'userView__btn--input']).rendor() as HTMLLinkElement;

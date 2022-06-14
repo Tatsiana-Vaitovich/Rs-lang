@@ -63,7 +63,7 @@ export class WordItem extends Component {
   private renderAudio(): HTMLElement {
     const audioWrapper = document.createElement('button');
     audioWrapper.classList.add('audio-btn');
-    audioWrapper.style.backgroundImage = 'url("../../../assets/images/sound.svg")';
+    audioWrapper.style.backgroundImage = 'url("./assets/images/sound.svg")';
     audioWrapper.addEventListener('click', () => this.playAudio());
     return audioWrapper;
   }

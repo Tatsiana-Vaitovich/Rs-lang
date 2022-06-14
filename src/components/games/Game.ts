@@ -44,9 +44,9 @@ export abstract class Game extends Page {
 
   protected URL = 'https://rslang-js.herokuapp.com/';
 
-  protected correctSound = './../../assets/sounds/correct.mp3';
+  protected correctSound = './assets/sounds/correct.mp3';
 
-  protected wrongSound = './../../assets/sounds/wrong.mp3';
+  protected wrongSound = './assets/sounds/wrong.mp3';
 
   protected MAX_PAGE = 29;
 
@@ -283,7 +283,7 @@ export abstract class Game extends Page {
     const sound = document.createElement('audio');
     sound.src = this.URL + this.ResultItems![index].audio;
     const soundIcon = document.createElement('img');
-    soundIcon.src = '../../assets/svg/sound.svg';
+    soundIcon.src = './assets/svg/sound.svg';
     soundIcon.addEventListener('click', () => sound.play());
     soundIcon.classList.add('game__sound-icon');
     const RESULT_ITEMS = [

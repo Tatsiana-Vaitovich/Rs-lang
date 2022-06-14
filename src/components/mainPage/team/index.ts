@@ -5,7 +5,7 @@ import './team.scss';
 
 export const teamMembersData: TeamMemberData[] = [
   {
-    img: '../../../assets/images/team1.jpg',
+    img: './assets/images/team1.jpg',
     name: 'Татьяна Болтрушевич',
     position: 'Team Lead',
     role: 'Реализация главной страницы, страницы авторизации, страницы статистики',
@@ -13,7 +13,7 @@ export const teamMembersData: TeamMemberData[] = [
     nicName: 'Tatsiana-vaitovich',
   },
   {
-    img: '../../../assets/images/team2.jpg',
+    img: './assets/images/team2.jpg',
     name: 'Богдан Палянца',
     position: 'Разработчик',
     role: 'Реализация игр "Спринт" и "Аудиовызов"',
@@ -21,7 +21,7 @@ export const teamMembersData: TeamMemberData[] = [
     nicName: 'Whispermind',
   },
   {
-    img: '../../../assets/images/team3.jpg',
+    img: './assets/images/team3.jpg',
     name: 'Елена Рыжанкова',
     position: 'Разработчик',
     role: 'BackEnd, реализация электронного учебника, реализация списка слов',

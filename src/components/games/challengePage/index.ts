@@ -37,8 +37,8 @@ export class GameChallengePage extends Game {
     const AUDIO_ICON = document.createElement('img');
     const HEADING = document.createElement('h2');
     HEADING.classList.add('challenge-game__heading');
-    HEADING.textContent = `Выберите правильный перевод`;
-    AUDIO_ICON.src = '../../../assets/svg/sound.svg';
+    HEADING.textContent = 'Выберите правильный перевод';
+    AUDIO_ICON.src = './assets/svg/sound.svg';
     AUDIO_ICON.classList.add('challenge-game__audio-icon');
     TRANSLATES_CONTAINER.classList.add('challenge-game__translates', 'multi-button');
     this.itemTranslates.forEach((elem) => TRANSLATES_CONTAINER.append(elem));
